@@ -1,0 +1,26 @@
+<resources>
+
+    // Exam 1
+    <string name="app_name">ExamActivityFragment</string>
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="fragmentA">Fragment A</string>
+    <string name="fragmentB">Fragment B</string>
+    <string name="button1">Send text to 2</string>
+    <string name="button2">Send text to 1</string>
+    <string name="buttonA">Send text to B</string>
+    <string name="buttonB">Send text to A</string>
+
+    // Exam 2
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="button_add">Button Add</string>
+    <string name="button_delete">Button Delete</string>
+
+    // main
+    <string name="way1">Exam 1 Way 1</string>
+    <string name="way2">Exam 1 Way 2</string>
+    <string name="exam2">Exam 2</string>
+
+
+</resources>
