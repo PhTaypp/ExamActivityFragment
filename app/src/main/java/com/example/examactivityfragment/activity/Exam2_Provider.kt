@@ -1,6 +1,7 @@
 package com.example.examactivityfragment.activity
 
 import android.content.ContentValues
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.EditText
 import android.widget.Toast
@@ -14,12 +15,17 @@ class Exam2_Provider : AppCompatActivity(R.layout.activity_exam2_provider) {
     override fun onStart() {
         super.onStart()
         val btnAdd = findViewById<AppCompatButton>(R.id.btnAdd)
+        val btnNext = findViewById<AppCompatButton>(R.id.btn_next)
         val textName = findViewById<EditText>(R.id.edtName)
         val textPhone = findViewById<EditText>(R.id.edtPhoneNumber)
         btnAdd.setOnClickListener {
             val name = textName.text.toString()
             val phone = textPhone.text.toString()
             onClickAdd(name, phone)
+        }
+        btnNext.setOnClickListener{
+            val intentShowData = Intent(this, ShowDataProvider::class.java)
+            startActivity(intentShowData)
         }
     }
     private fun onClickAdd(name: String, phone: String){

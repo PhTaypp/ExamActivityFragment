@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamActivityFragment">
+        <activity
+            android:name=".activity.ShowDataProvider"
+            android:exported="false" />
+
         <provider
+            android:name=".provider.ContentProviderP"
             android:authorities="com.example.user"
-            android:name="com.example.examactivityfragment.provider.ContentProviderP"
             android:enabled="true"
             android:exported="true" />
 
@@ -33,7 +37,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

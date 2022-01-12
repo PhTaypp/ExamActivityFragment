@@ -10,9 +10,11 @@
     <color name="button">#FFFFFF</color>
     <color name="background">#0E163A</color>
     <color name="primary">#053C9C</color>
-    <color name="background_tab">#053C9C</color>
     <color name="color_white">#FFFFFF</color>
     <color name="unchecked">#7FA9EB</color>
-    <color name="selected_tab">#002668</color>
     <color name="transparent">#4DFFFFFF</color>
+    <color name="color_line">#192145</color>
+    <color name="text_common">#B0BBF3</color>
+    <color name="color_bound_text_view">#3B4781</color>
+    <color name="popup_title">#0165FE</color>
 </resources>
